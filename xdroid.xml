@@ -6,7 +6,11 @@
         revision="eleven"/>
 
 <remote name="xdclo"
-        fetch="https://github.com//xdCLO/"
+        fetch="https://github.com/xdCLO/"
+        revision="eleven"/>
+
+<remote name="xdclo-modified"
+        fetch="https://github.com/xdCLO-Modified/"
         revision="eleven"/>
 
 <remote name="xyz-prjkt"
@@ -57,7 +61,7 @@
 
   <!-- Framework Repo -->
   <project path="frameworks/av" name="xd_frameworks_av" remote="xdclo"/>
-  <project path="frameworks/base" name="xd_frameworks_base" remote="xdclo"/>
+  <project path="frameworks/base" name="xd_frameworks_base" remote="xdclo-modified"/>
   <project path="frameworks/native" name="xd_frameworks_native" remote="xdclo"/>
   <project path="frameworks/opt/telephony" name="xd_frameworks_opt_telephony" remote="xdclo"/>
   <project path="frameworks/opt/net/ims" name="xd_frameworks_opt_net_ims" remote="xdclo"/>
@@ -86,7 +90,7 @@
   <!-- Packages Repo -->
   <project path="packages/apps/Bluetooth" name="xd_packages_apps_Bluetooth" remote="xdclo"/>
   <project path="packages/apps/CellBroadcastReceiver" name="xd_packages_apps_CellBroadcastReceiver" remote="xdclo"/>
-  <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xdclo"/>
+  <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xdclo-modified"/>
   <project path="packages/apps/SettingsIntelligence" name="xd_packages_apps_SettingsIntelligence" remote="xdclo"/>
   <project path="packages/apps/Xzrypr" name="xd_packages_apps_Xzrypr" remote="xdclo"/>
   <project path="packages/apps/Plugins" name="xd_packages_apps_Plugins" remote="xdclo"/>
@@ -107,10 +111,10 @@
   <!-- project path="prebuilts/clang/host/linux-x86/clang-xRageTC_lto" name="xRageTC-clang" revision="xRageTC_lto" remote="xyz-prjkt"/ -->
 
   <!-- Sepolicy Repo -->
-  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdclo"/>
+  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdclo-modified"/>
 
   <!-- System Repo -->
-  <project path="system/core" name="xd_system_core" remote="xdclo"/>
+  <project path="system/core" name="xd_system_core" remote="xdclo-modified"/>
   <project path="art" name="xd_art" remote="xdclo"/>
   <project path="bionic" name="xd_bionic" remote="xdclo"/>
   <project path="bootable/recovery" name="xd_bootable_recovery" remote="xdclo"/>
